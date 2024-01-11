@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de DEVS</title>
+    <meta name="description" content="Formulário de cadastramento para DEVS para aulão de desenvolvimento!"/>
+</head>
+<body>
+
+    <!--Inicio do formulário-->
+    <form>
+        <!--Criação do cabeçalho com ID´s para estilização-->
+        <div class="campo">
+            <h1 id="titulo">Formulário para DEVS</h1>
+            <em id="subtitulo">Preencha com as suas informações</em>
+        </div>
+
+        <br><br>
+
+        <!--Coleta de informações inicias: Nome, sobrenome e E-mail-->
+        <div class="campo">
+            <strong>Nome:</strong>
+            <input type="text" id="nome">
+            <br><br>
+            <strong>Sobrenome:</strong>
+            <input type="text" id="sobrenome">
+            <br><br>
+            <strong>E-mail:</strong>
+            <input type="email" id="email">
+        </div>
+
+        <br><br>
+
+        <!--Coleta do gênero no qual o usuário define-se-->
+        <div class="campo">
+            <strong>Gênero:</strong>
+            <select id="genero">
+                <option selected disabled value=""></option>
+                <option>Homem Cis</option>
+                <option>Mulher Cis</option>
+                <option>Homem Trans</option>
+                <option>Mulher Trans</option>
+                <option>Não Binário</option>
+                <option>Outro</option>
+            </select>
+            <br><br>
+                <strong>Caso outro, por gentileza nos informe!</strong>
+                <input type="text" id="outro">
+        </div>
+
+        <!--Senioridade usar radio button-->
+        <div class="campo">
+
+        </div>
+
+    </form>
+</body>
+</html>
