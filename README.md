@@ -1,4 +1,4 @@
 # Formulario-de-DEVS
-Formulário de DEVS (EM CONSTRUÇÃO)
+Formulário de DEVS (EM DESENVOLVIMENTO)
 
-Estudo de HTML criando um formulário para preenchimento dos Devs
+Estudo de HTML e CSS criando um formulário para preenchimento dos Devs.
