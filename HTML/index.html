@@ -45,7 +45,7 @@
                 <option>Outro</option>
             </select>
             <br><br>
-                <strong>Caso outro, por gentileza nos informe!</strong>
+                <strong>Caso outro, por gentileza nos informe!</strong><br><br>
                 <input type="text" id="outro">
         </div>
 
@@ -53,8 +53,8 @@
 
         <!--Senioridade-->
         <div class="campo">
-            <strong>Qual a sua Senioridade?</strong>
-            <label><input type="radio" name="senioridade" value="Estagiario" class="radio">Estagiario</label>
+            <strong>Qual a sua Senioridade?</strong><br><br>
+            <label><input type="radio" name="senioridade" value="estagiario" class="radio">Estagiario</label>
             <label><input type="radio" name="senioridade" value="junior" class="radio">Junior</label>
             <label><input type="radio" name="senioridade" value="pleno" class="radio">Pleno</label>
             <label><input type="radio" name="senioridade" value="senior" class="radio">Senior</label>
@@ -64,9 +64,24 @@
 
         <!--área de desenvolvimento usar radio button-->
         <div class="campo">
-            <strong>Qual área da tecnologia você trabalha?</strong>
-
+            <strong>Qual área da tecnologia você trabalha?</strong><br><br>
+            <label><input type="radio" name="area" value="full-stack" class="radio">Full-Stack</label>
+            <label><input type="radio" name="area" value="front-end" class="radio">Front-end</label>
+            <label><input type="radio" name="area" value="back-end" class="radio">Back-end</label>
+            <label><input type="radio" name="area" value="dados" class="radio">Dados</label>
+            <label><input type="radio" name="area" value="segurança" class="radio">Cyber Security</label>
         </div>
+
+        <br><br>
+
+        <div class="campo">
+            <strong>Conte um pouco mais sobre sua trajetoria na tecnologia:</strong><br><br>
+            <textarea cols="60" rows="6"></textarea>
+        </div>
+
+        <br>
+
+        <button type="submit" value="enviar" id="botao">Enviar</button>
     </form>
 </body>
 </html>
