@@ -29,7 +29,7 @@ header {
     font-size: 48px;
     font-style: normal;
     line-height: normal;
-    margin-top: px;
+    margin-top: 10px;
 }
 
 /*Estilização do subtitulo*/
@@ -43,21 +43,25 @@ header {
     line-height: normal;
 }
 
+/*Centralização das DIVs pai*/
 .campo{
     display: block;
     align-items: center;
     justify-content: center;
 }
 
+/*estilização da descrição do input*/
 #nometitulo {
     text-align: center;
     font-family: 'kameron';
     font-weight: 700;
+    display: inline-block;
     font-size: 20px;
     font-style: normal;
     line-height: normal;
 }
 
+/*Estilização do input*/
 #nome {
     width: 340px;
     height: 27px;
@@ -67,16 +71,19 @@ header {
     border: solid black 1px;
 }
 
+/*estilização da descrição do input*/
 #sobretitulo {
     text-align: center;
     font-family: 'kameron';
     font-weight: 700;
+    display: inline-block;
     font-size: 20px;
     font-style: normal;
     line-height: normal;
     margin-right: 10px;
 }
 
+/*Estilização do input*/
 #sobrenome {
     width: 340px;
     height: 27px;
@@ -86,16 +93,20 @@ header {
     border: solid black 1px;
 }
 
+
+/*estilização da descrição do input*/
 #emailtitulo {
     text-align: center;
     font-family: 'kameron';
     font-weight: 700;
+    display: inline-block;
     font-size: 20px;
     font-style: normal;
     line-height: normal;
     margin-right: 18px;
 }
 
+/*Estilização do input*/
 #email {
     width: 340px;
     height: 27px;
@@ -104,3 +115,47 @@ header {
     margin-left: 18px;
     border: solid black 1px;
 }
+
+/*estilização da descrição do input*/
+#generotitulo {
+    text-align: center;
+    font-family: 'kameron';
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 25px;
+}
+
+/*Estilização do input*/
+#genero {
+    width: 340px;
+    height: 27px;
+    top: -216px;
+    left: -88px;
+    border: solid black 1px;
+}
+
+/*estilização da descrição do input*/
+#case {
+    text-align: center;
+    font-family: 'kameron';
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+/*Estilização do input*/
+#outro {
+    width: 340px;
+    height: 27px;
+    top: -143px;
+    left: -115px;
+    border: solid black 1px;
+}
+
+
