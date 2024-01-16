@@ -1,0 +1,106 @@
+/*reset CSS*/
+h1, header, div, label, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*Definindo a cor do site*/
+body {
+    background: #F1F5C2;
+    text-align: center;
+}
+
+/*Definindo o header*/
+header {
+    text-align: center;
+    margin-left: 30px;
+}
+
+/*Estilização do título*/
+#titulo {
+    text-align: center;
+    color: #000;
+    font-family: 'Kameron';
+    font-weight: 700;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: px;
+}
+
+/*Estilização do subtitulo*/
+#subtitulo {
+    text-align: center;
+    color: #000;
+    font-family: 'Kameron';
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.campo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#nometitulo {
+    text-align: center;
+    font-family: 'kameron';
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+#nome {
+    width: 340px;
+    height: 27px;
+    top: -407px;
+    left: -89px;
+    margin-left: 38px;
+    border: solid black 1px;
+}
+
+#sobretitulo {
+    text-align: center;
+    font-family: 'kameron';
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+#sobrenome {
+    width: 340px;
+    height: 27px;
+    top: -342.94px;
+    left: -89px;
+    margin-right: 25px;
+    border: solid black 1px;
+}
+
+#emailtitulo {
+    text-align: center;
+    font-family: 'kameron';
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 18px;
+}
+
+#email {
+    width: 340px;
+    height: 27px;
+    top: -277px;
+    left: -89px;
+    margin-left: 18px;
+    border: solid black 1px;
+}

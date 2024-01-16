@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de DEVS</title>
-    <meta name="description" content="Formulário de cadastramento para imersão de tecnologia voltada para DEVs"/>
+    <meta name="description" content="Formulário de cadastramento para imersão de tecnologia voltada para DEVs" />
+    <link rel="stylesheet" href="../CSS/style.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!--Inicio do formulário-->
@@ -14,20 +23,20 @@
         <header>
             <div class="campo">
                 <h1 id="titulo">Formulário de DEVs</h1>
-                <em id="subtitulo">Preencha com as suas informações</em>
+                <p id="subtitulo">Preencha com as suas informações</p>
             </div>
         </header>
         <br><br>
 
         <!--Coleta de informações inicias: Nome, sobrenome e E-mail-->
         <div class="campo">
-            <strong>Nome:</strong>
+            <span id="nometitulo"><strong>Nome:</strong></span>
             <input type="text" id="nome">
             <br><br>
-            <strong>Sobrenome:</strong>
+            <span id="sobretitulo"><strong>Sobrenome:</strong></span>
             <input type="text" id="sobrenome">
             <br><br>
-            <strong>E-mail:</strong>
+            <span id="emailtitulo"><strong>E-mail:</strong></span> 
             <input type="email" id="email">
         </div>
 
@@ -46,8 +55,8 @@
                 <option>Outro</option>
             </select>
             <br><br>
-                <strong>Caso outro, por gentileza nos informe!</strong><br><br>
-                <input type="text" id="outro">
+            <strong>Caso outro, por gentileza nos informe!</strong><br><br>
+            <input type="text" id="outro">
         </div>
 
         <br><br>
@@ -85,4 +94,5 @@
         <button type="submit" value="enviar" id="botao">Enviar</button>
     </form>
 </body>
+
 </html>
