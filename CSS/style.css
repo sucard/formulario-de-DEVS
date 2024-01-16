@@ -147,6 +147,7 @@ header {
     font-style: normal;
     line-height: normal;
     margin-top: 10px;
+    margin-left: 50px;
 }
 
 /*Estilização do input*/
@@ -156,8 +157,10 @@ header {
     top: -143px;
     left: -115px;
     border: solid black 1px;
+    margin-left: 40px;
 }
 
+/*estilização da descrição do input*/
 #senior {
     text-align: center;
     font-family: 'kameron';
@@ -166,8 +169,10 @@ header {
     font-size: 20px;
     font-style: normal;
     line-height: normal;
+    margin-left: 30px;
 }
 
+/*estilização da descrição do input*/
 #areatech {
     text-align: center;
     font-family: 'kameron';
@@ -176,15 +181,29 @@ header {
     font-size: 20px;
     font-style: normal;
     line-height: normal;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
+/*estilização da descrição do text area*/
+#experiencia {
+    text-align: center;
+    font-family: 'kameron';
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+/*Estilização dos radios button*/
 .radio {
     display: list-item;
     flex-direction: column;
     margin-top: 15px;
 }
 
+/*Estilização dos valores dos radios buttons*/
 .buttonstitulo {
     text-align: center;
     font-family: 'kameron';
@@ -194,4 +213,25 @@ header {
     font-style: normal;
     line-height: normal;
     margin-left: 10px;
+}
+
+/*Definição do tamanho da textarea*/
+textarea {
+    text-align: center;
+    max-width: 450px;
+    max-height: 160px;
+    border: solid black 1px;
+    margin-left: 30px;
+}
+
+/* Estilização do botão*/
+button {
+    text-align: center;
+    font-family: 'kameron';
+    font-weight: 700;
+    display:inline-block;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 45px;
 }
